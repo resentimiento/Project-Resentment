@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd8a1d1a36575cf40b31a385e48ffed5
+guid: 35190785cb35ca44987e4fd0d0258ee8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,106 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: main2.1_10
+      name: JUMP_15
       rect:
         serializedVersion: 2
-        x: 10
+        x: 260
+        y: 339
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f27a4a5734ce1489af57688547c47a
+      internalID: 224192909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMP_16
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 339
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db649283d838e04ebbff6463382895c
+      internalID: -971466130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMP_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 339
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a0713f7bd09ad4fb68efadd08ee4b4
+      internalID: 1580973566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JUMP_18
+      rect:
+        serializedVersion: 2
+        x: 410
         y: 335
         width: 27
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc8ef460853e84243b225bcec037104b
-      internalID: -1246646348
+      spriteID: 49f6ed5df8b738248a03410eba47997a
+      internalID: -1222767024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: main2.1_11
+      name: JUMP_19
       rect:
         serializedVersion: 2
-        x: 64
+        x: 464
         y: 335
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d367b73f2736b664ebf0bfa0b323b101
-      internalID: -569498074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main2.1_12
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 336
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f64b59366a02b6843b62a4b630e6b0b1
-      internalID: -978976439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main2.1_13
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 338
-        width: 26
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 392912b845f424948bc486d97884c41e
-      internalID: 945167988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main2.1_14
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 340
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b3b3715c3c74c44a98228b4aa7ddc42
-      internalID: 1483484857
+      spriteID: 20e72f462908a304d8af8cd8f01db118
+      internalID: -148142930
       vertices: []
       indices: 
       edges: []
@@ -238,67 +238,67 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      main2.1_0: -144954249
-      main2.1_1: 1671955067
-      main2.1_10: -1246646348
-      main2.1_11: -569498074
-      main2.1_12: -978976439
-      main2.1_13: 945167988
-      main2.1_14: 1483484857
-      main2.1_15: -1914218407
-      main2.1_16: -1112483646
-      main2.1_17: 664810083
-      main2.1_18: -546858565
-      main2.1_19: 25707258
-      main2.1_2: -1120119724
-      main2.1_20: 1546914986
-      main2.1_21: 875700655
-      main2.1_22: -1842029133
-      main2.1_23: 2101253693
-      main2.1_24: 1168317789
-      main2.1_25: 214993574
-      main2.1_26: 1663836664
-      main2.1_27: -1838492342
-      main2.1_28: -2007403477
-      main2.1_29: -172948420
-      main2.1_3: 1053003058
-      main2.1_30: 955612911
-      main2.1_31: -1497267304
-      main2.1_32: -128109790
-      main2.1_33: 312767376
-      main2.1_34: -1820495277
-      main2.1_35: 475812025
-      main2.1_36: 65076250
-      main2.1_37: -1164749127
-      main2.1_38: 472652683
-      main2.1_39: -478119438
-      main2.1_4: 1443185190
-      main2.1_40: 1931070481
-      main2.1_41: -599210342
-      main2.1_42: -108092400
-      main2.1_43: -1781455216
-      main2.1_44: -1720527641
-      main2.1_45: 1340996179
-      main2.1_46: 1105596166
-      main2.1_47: -1384463167
-      main2.1_48: 414148041
-      main2.1_49: 1411218862
-      main2.1_5: -1987164050
-      main2.1_50: -1075388014
-      main2.1_51: 2068022686
-      main2.1_52: -1004187089
-      main2.1_53: -285640739
-      main2.1_54: 1744654355
-      main2.1_55: -207961242
-      main2.1_56: 2116313910
-      main2.1_57: 1822368037
-      main2.1_58: 2080350226
-      main2.1_59: -1244450460
-      main2.1_6: -64653875
-      main2.1_60: 2066455665
-      main2.1_7: 1006790658
-      main2.1_8: -1841751826
-      main2.1_9: -1130594721
+      JUMP_0: -991878262
+      JUMP_1: -858792986
+      JUMP_10: 2129456470
+      JUMP_11: -1990905947
+      JUMP_12: 1721080060
+      JUMP_13: 748826283
+      JUMP_14: 1011971589
+      JUMP_15: 224192909
+      JUMP_16: -971466130
+      JUMP_17: 1580973566
+      JUMP_18: -1222767024
+      JUMP_19: -148142930
+      JUMP_2: 28848001
+      JUMP_20: -1402377033
+      JUMP_21: 206548547
+      JUMP_22: 764611620
+      JUMP_23: 729933519
+      JUMP_24: -346954758
+      JUMP_25: -880572567
+      JUMP_26: 578747017
+      JUMP_27: 400043159
+      JUMP_28: 968567418
+      JUMP_29: 839183522
+      JUMP_3: -251646420
+      JUMP_30: -164235120
+      JUMP_31: 1406210887
+      JUMP_32: 842045089
+      JUMP_33: -2139771485
+      JUMP_34: -986541955
+      JUMP_35: 815627911
+      JUMP_36: -1925133994
+      JUMP_37: -803703956
+      JUMP_38: 1107641252
+      JUMP_39: -1294374054
+      JUMP_4: -1087576888
+      JUMP_40: -240961110
+      JUMP_41: 1124485575
+      JUMP_42: -337319377
+      JUMP_43: -757648570
+      JUMP_44: 2102619593
+      JUMP_45: -1876299346
+      JUMP_46: 1215194246
+      JUMP_47: 114066203
+      JUMP_48: 1960444780
+      JUMP_49: -755524364
+      JUMP_5: -1159703378
+      JUMP_50: 196650284
+      JUMP_51: -1550145451
+      JUMP_52: -1755339025
+      JUMP_53: 1003918357
+      JUMP_54: 751107548
+      JUMP_55: -776465147
+      JUMP_56: -1374995864
+      JUMP_57: -1301082574
+      JUMP_58: -483817598
+      JUMP_59: -1596043587
+      JUMP_6: 1797996326
+      JUMP_60: -117989136
+      JUMP_7: 1306699200
+      JUMP_8: 1714291062
+      JUMP_9: 2031367621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
