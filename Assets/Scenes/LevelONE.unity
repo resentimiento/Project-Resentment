@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 113851496}
   - component: {fileID: 113851495}
   - component: {fileID: 113851497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 113851494}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3909e2ea53eb304c828609036148dee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -289,7 +289,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 361425010}
   - component: {fileID: 361425009}
   - component: {fileID: 361425011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 361425008}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3909e2ea53eb304c828609036148dee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 385796753}
   - component: {fileID: 385796752}
   - component: {fileID: 385796754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3745,7 +3745,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 385796748}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3909e2ea53eb304c828609036148dee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3785,9 +3785,10 @@ GameObject:
   - component: {fileID: 616225775}
   - component: {fileID: 616225778}
   - component: {fileID: 616225779}
+  - component: {fileID: 616225780}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3873,7 +3874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616225774}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.61, y: 5.46, z: 0}
+  m_LocalPosition: {x: 1.8, y: 7.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3942,6 +3943,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &616225780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616225774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7fd1160e3bf5843bfee69e93a33038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  jumpForce: 350
 --- !u!1 &781121054
 GameObject:
   m_ObjectHideFlags: 0
@@ -3954,7 +3969,7 @@ GameObject:
   - component: {fileID: 781121055}
   - component: {fileID: 781121057}
   - component: {fileID: 781121058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform2_leftside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4038,7 +4053,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 781121054}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3909e2ea53eb304c828609036148dee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4526,7 +4541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1028220363
 Transform:
   m_ObjectHideFlags: 0
@@ -4535,7 +4550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028220362}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.16, z: 0}
+  m_LocalPosition: {x: -0.45, y: -0.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4599,41 +4614,99 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028220362}
   m_Enabled: 1
-  m_Tiles: {}
+  m_Tiles:
+  - first: {x: -4, y: 6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: 9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: 10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 3
+    m_Data: {fileID: 11400000, guid: cd5194905827b3045b10012761043129, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 5972574c807091349bdfb36c75e91e9b, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4216205cc86712e41b8f1352ee567de8, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 3
+    m_Data: {fileID: 394085517, guid: 9544b94037efdb446bce493ecd51d027, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -236483828, guid: 9544b94037efdb446bce493ecd51d027, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 102235260, guid: 9544b94037efdb446bce493ecd51d027, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 0
+  - m_RefCount: 5
     m_Data:
-      e00: -1.7064822e-12
+      e00: 1
       e01: 0
-      e02: -1.1811176e+10
-      e03: -1.1811176e+10
-      e10: 7.43e-43
-      e11: 0
-      e12: 7.4e-43
-      e13: 7.4e-43
-      e20: 6.8821014e-25
-      e21: -3.869126e+32
-      e22: 0.0000000012681101
-      e23: 2.0074272
-      e30: 4.5904e-41
-      e31: 7.43e-43
-      e32: 7.41e-43
-      e33: 7.44e-43
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
-  - m_RefCount: 0
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
+  - m_RefCount: 5
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 4, y: 7, z: 1}
+  m_Origin: {x: -4, y: 0, z: 0}
+  m_Size: {x: 9, y: 11, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -4700,7 +4773,7 @@ GameObject:
   - component: {fileID: 1814051853}
   - component: {fileID: 1814051852}
   - component: {fileID: 1814051854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4767,7 +4840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814051851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.48, y: 10.5, z: 0}
+  m_LocalPosition: {x: 3.99, y: 10.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4783,7 +4856,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1814051851}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f3909e2ea53eb304c828609036148dee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4829,7 +4902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106249610}
   - component: {fileID: 2106249609}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform2_rightside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
