@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
 
         /** Condicion IF de SALTAR con espacio **/
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
 
             rb.AddForce(Vector2.up * jumpForce);
