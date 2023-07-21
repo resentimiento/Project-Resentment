@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerTEST : MonoBehaviour
 {
     public float speed = 3;
     public float jumpForce = 10;
@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private float movY;
 
     private bool facingRight = true;
-    private bool isGrounded = false;
+    private static bool isGrounded = false;
 
     private Rigidbody2D rb;
     private Animator _animator;
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         {
 
             rb.AddForce(Vector2.up * jumpForce);
-
+           
             _animator.SetTrigger("jump"); //Enables "jump" animation
         }
 
