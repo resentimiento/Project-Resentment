@@ -10,7 +10,6 @@ public class DemonEnemie : MonoBehaviour
 
         if (other.transform.CompareTag("Player"))
         {
-            Debug.Log("Player Damaged");
             Destroy(other.gameObject);
         }
 
