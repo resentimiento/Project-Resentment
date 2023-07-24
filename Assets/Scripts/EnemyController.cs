@@ -9,6 +9,10 @@ public class EnemyController : MonoBehaviour
     public float speed;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    
+    [SerializeField] private GameObject youLosePanel;
+
+    public AudioSource playerKilled;
 
 
     private void Start()
@@ -33,7 +37,10 @@ public class EnemyController : MonoBehaviour
 
         if (other.transform.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
+	playerKilled.Play();
+            	Destroy(other.gameObject);
+	Time.timeScale = 0f;
+	youLosePanel.SetActive(true);
         }
 
 

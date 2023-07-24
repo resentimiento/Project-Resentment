@@ -7,6 +7,18 @@ using UnityEngine.Audio;
 public class Heart : MonoBehaviour
 {
 
+	public GameObject brainItem;
+
+	void Start()
+	{
+		brainItem.SetActive(false);
+	}
+	
+	void Update()
+	{
+		brainItem.SetActive(false);
+	}
+
     private void OnTriggerEnter2D(Collider2D other)
     {
 
@@ -15,9 +27,9 @@ public class Heart : MonoBehaviour
             //DESTRUIR EL OBJETO
             Destroy(gameObject);
 
-            //APAGAR EL OBJETO
-            //gameObject.SetActive(false);
+	brainItem.SetActive(true);
         }
+	
 
     }
 
