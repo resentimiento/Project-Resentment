@@ -14,14 +14,14 @@ public class LevelManager : MonoBehaviour
 
     public void PlayLevelTwo()
     {
-        SceneManager.LoadScene("LevelTWO", LoadSceneMode.Single);
+        SceneManager.LoadScene("LevelONE", LoadSceneMode.Single);
     }
 
 
 
     public void PlayLevelThree()
     {
-        SceneManager.LoadScene("LevelTHREE", LoadSceneMode.Single);
+        SceneManager.LoadScene("LevelONE", LoadSceneMode.Single);
     }
 
 

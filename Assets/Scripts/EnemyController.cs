@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     
     [SerializeField] private GameObject youLosePanel;
+    [SerializeField] private GameObject pauseMenuButton;
 
     public AudioSource playerKilled;
 
@@ -40,6 +41,7 @@ public class EnemyController : MonoBehaviour
 	playerKilled.Play();
             	Destroy(other.gameObject);
 	Time.timeScale = 0f;
+	pauseMenuButton.SetActive(false);
 	youLosePanel.SetActive(true);
         }
 

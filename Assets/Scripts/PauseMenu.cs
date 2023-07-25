@@ -47,7 +47,7 @@ public class PauseMenu : MonoBehaviour
 	{
 		Time.timeScale = 1f;
 		levelWonPanel.SetActive(false);
-		SceneManager.LoadScene("LevelTWO", LoadSceneMode.Single);
+		SceneManager.LoadScene("LevelONE", LoadSceneMode.Single);
 		Debug.Log("Siguiente Nivel");
 	}
 }
